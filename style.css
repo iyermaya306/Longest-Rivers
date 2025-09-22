@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f0f7ff;
+  color: #222;
+}
+
+header {
+  text-align: center;
+  background: #0277bd;
+  color: #fff;
+  padding: 25px 10px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.river-scroll {
+  display: flex;
+  gap: 20px;
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 10px;
+  overflow-x: auto;
+}
+
+.river-card {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 5px;
+  text-align: center;
+  min-width: 250px;
+  flex-shrink: 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.river-card img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.river-card h2 {
+  margin: 0 0 8px 0;
+  color: #0277bd;
+}
